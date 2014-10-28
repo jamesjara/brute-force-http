@@ -4,7 +4,7 @@ brute-force-http
 Brute Force Http Form web logins
 Brute forcing consists of systematically enumerating all possible candidates for the solution and checking whether each candidate satisfies the problem's statement. 
 
-<wiki:video url="http://www.youtube.com/watch?v=omrV1OIiWHc&feature=youtu.be"/>
+[http://www.youtube.com/watch?v=omrV1OIiWHc&feature=youtu.be](http://www.youtube.com/watch?v=omrV1OIiWHc&feature=youtu.be)
 
 In web applications, we usually find a combination of user ID and password. Therefore, it's possible to carry out an attack to retrieve a valid user account and password, by trying to enumerate many (i.e., dictionary attack) or all the possible candidates. 
 
@@ -19,8 +19,7 @@ Unless an entity decides to apply a sophisticated web authentication, the two mo
 IN PHP.
 
 Example:
-{{{
-
+```php
 $partytime = new bruteForceHTTP();
 
 $partytime->setDebug(true);
@@ -37,4 +36,4 @@ $partytime->setBingoKeyword('Bienvenido');
 
 $partytime->KillerTime();
 
-}}}
+```
