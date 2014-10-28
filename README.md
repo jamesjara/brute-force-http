@@ -1,5 +1,7 @@
 brute-force-http
 ================
+Labels
+jamesjara, bruteforce, bruteforcehttp, Dictionary, php
 
 Brute Force Http Form web logins
 Brute forcing consists of systematically enumerating all possible candidates for the solution and checking whether each candidate satisfies the problem's statement. 
